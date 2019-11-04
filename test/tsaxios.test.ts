@@ -3,7 +3,7 @@ import DummyClass from '../src/tsaxios'
 /**
  * Dummy test
  */
-describe('Dummy test1', () => {
+describe('Dummy test2', () => {
   it('works if true is truthy', () => {
     expect(true).toBeTruthy()
   })
