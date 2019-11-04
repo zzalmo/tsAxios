@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/zzalmo/tsAxios/compare/v0.0.3...v0.0.4) (2019-11-04)
+
+
+### Bug Fixes
+
+* **a:** a ([b39a3a3](https://github.com/zzalmo/tsAxios/commit/b39a3a3956517787f7feefae2c83d1ffafae8ade))
+
 ### [0.0.3](https://github.com/zzalmo/tsAxios/compare/v0.0.2...v0.0.3) (2019-11-04)
 
 
