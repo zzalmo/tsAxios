@@ -12,3 +12,16 @@ describe('Dummy test4', () => {
     expect(new DummyClass()).toBeInstanceOf(DummyClass)
   })
 })
+
+function identity<T>(arg: Array<T>): Array<T> {
+  return arg
+}
+
+let output = identity<string>('myString')
+
+let p = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    console.log('执行完成Promise')
+    resolve('')
+  }, 2000)
+})
