@@ -11,8 +11,8 @@ Promise = (executor)=>{
 
     }
     try{
-    executor(resolve,reject);
-        }catch(e){
-            reject(e);
-        }
+        executor(resolve,reject);
+    }catch(e){
+        reject(e);
+    }
 }
