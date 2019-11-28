@@ -17,7 +17,7 @@ function identity<T>(arg: Array<T>): Array<T> {
   return arg
 }
 
-let output = identity<string>('myString')
+let output = identity<string>('myStri')
 
 let p = new Promise((resolve, reject) => {
   setTimeout(() => {
