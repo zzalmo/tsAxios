@@ -1,12 +1,12 @@
 module.exports = {
   types: [
-    { value: '[feat]', name: 'feat:     A new feature' },
-    { value: '[fix]', name: 'fix:      A bug fix' },
-    { value: '[docs]', name: 'docs:     Documentation only changes' },
+    { value: '[feat]', name: 'feat:     新特性' },
+    { value: '[fix]', name: 'fix:      修复bug' },
+    { value: '[docs]', name: 'docs:     文档变更' },
     {
       value: '[style]',
       name:
-        'style:    Changes that do not affect the meaning of the code\n            (white-space, formatting, missing semi-colons, etc)',
+        'style:    格式以及样式的修改',
     },
   ],
 
@@ -31,15 +31,15 @@ module.exports = {
   */
   // override the messages, defaults are as follows
   messages: {
-    type: "Select the type of change that you're committing:",
+    type: "选择一种提交类型:",
     scope: '\nDenote the SCOPE of this change (optional):',
     // used if allowCustomScopes is true
     customScope: 'Denote the SCOPE of this change:',
-    subject: 'Write a SHORT, IMPERATIVE tense description of the change:\n',
+    subject: "为本次提交写一个简短的说明:",
     body: 'Provide a LONGER description of the change (optional). Use "|" to break new line:\n',
     breaking: 'List any BREAKING CHANGES (optional):\n',
     footer: 'List any ISSUES CLOSED by this change (optional). E.g.: #31, #34:\n',
-    confirmCommit: 'Are you sure you want to proceed with the commit above?',
+    confirmCommit:"确定提交吗?",
   },
 
   allowCustomScopes: true,
