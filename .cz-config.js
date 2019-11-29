@@ -6,7 +6,7 @@ module.exports = {
     {
       value: '[style]',
       name:
-        'style:    格式以及样式的修改',
+        'style:    格式以及样式修改',
     },
   ],
 
