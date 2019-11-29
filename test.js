@@ -21,6 +21,6 @@ class RangeIterator {
 function range(start,stop){
     return new RangeIterator(start,stop);
 }
-for (var value of range(0,5)){
+for (var value of range(0,4)){
     console.log(value);
 }
